@@ -1,4 +1,6 @@
 # CertVault Helm Chart
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FgregPerlinLi%2Fcertvault-charts.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FgregPerlinLi%2Fcertvault-charts?ref=badge_shield)
+
 
 ## Overview
 
@@ -124,3 +126,6 @@ The following table lists the configurable parameters of the CertVault chart and
 ## License
 
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/gregperlinli/cert-vault/blob/main/LICENSE) file for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FgregPerlinLi%2Fcertvault-charts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FgregPerlinLi%2Fcertvault-charts?ref=badge_large)
