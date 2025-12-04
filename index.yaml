@@ -15,6 +15,57 @@ entries:
         - title: User Management
           url: https://raw.githubusercontent.com/gregPerlinLi/CertVault/main/docs/img/Screenshot4.png
     apiVersion: v2
+    appVersion: 2.8.1
+    created: "2025-12-04T15:39:44.501748882Z"
+    dependencies:
+    - condition: redis.internal
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.4
+    - condition: mysql.internal
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.3.2
+    - condition: postgresql.internal
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.6.0
+    description: A Helm chart for CertVault self-signed SSL certificate management
+      platform backend server.
+    digest: 7438b1f015885c24fe270a6ae362dca61a800260cc7eb373465651da27e15c63
+    home: https://github.com/gregperlinli/cert-vault
+    icon: https://raw.githubusercontent.com/gregPerlinLi/CertVault/refs/heads/main/frontend/public/favicon.svg
+    keywords:
+    - cert-vault
+    - self-sign
+    - certificate
+    - management
+    kubeVersion: '>= 1.20.0-0'
+    maintainers:
+    - email: lihaolin13@outlook.com
+      name: gregPerlinLi
+    name: cert-vault
+    sources:
+    - https://github.com/gregperlinli/cert-vault
+    - https://github.com/gregperlinli/certvault-charts
+    type: application
+    urls:
+    - https://github.com/gregPerlinLi/certvault-charts/releases/download/cert-vault-2.8.1/cert-vault-2.8.1.tgz
+    version: 2.8.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/gregPerlinLi/CertVault/issues
+      artifacthub.io/screenshots: |-
+        - title: Dashboard
+          url: https://raw.githubusercontent.com/gregPerlinLi/CertVault/main/docs/img/Screenshot2.png
+        - title: CA Certificate Management
+          url: https://raw.githubusercontent.com/gregPerlinLi/CertVault/main/docs/img/Screenshot1.png
+        - title: SSL Certificate Management
+          url: https://raw.githubusercontent.com/gregPerlinLi/CertVault/main/docs/img/Screenshot3.png
+        - title: User Management
+          url: https://raw.githubusercontent.com/gregPerlinLi/CertVault/main/docs/img/Screenshot4.png
+    apiVersion: v2
     appVersion: 2.8.0
     created: "2025-11-12T14:34:47.143811749Z"
     dependencies:
@@ -3615,4 +3666,4 @@ entries:
     urls:
     - https://github.com/gregPerlinLi/certvault-charts/releases/download/cert-vault-0.0.1/cert-vault-0.0.1.tgz
     version: 0.0.1
-generated: "2025-11-12T14:34:47.144158015Z"
+generated: "2025-12-04T15:39:44.502203371Z"
